@@ -1,0 +1,417 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+
+#hero{
+    background-image: url('https://static.vecteezy.com/system/resources/previews/002/912/716/original/swimming-pool-background-free-vector.jpg');
+    width: 100%;
+    height: 1000px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero h2{
+    color: black;
+    font-size: 80px;
+    text-transform: uppercase;
+}
+
+#hero p{
+    color: gray;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    margin: 20px 0px 35px 0px;
+}
+
+#hero a{
+    color: white;
+    background-color: #F37748;
+    border-radius: 20px;
+    font-size: 22px;
+    padding: 14px 26px;
+    text-decoration: none;
+}
+
+#logo{
+    width: 60px;
+}
+
+.header{
+    color: white;
+    padding: 12px 18px;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+}
+
+.header ul{
+    margin: 0px 12px 0px 0px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header ul li{
+    padding: 0px 25px;
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+#contact{
+    background-color: #F37748;
+    border-radius: 25px;
+    padding: 6px;
+    font-size: 20px;
+}
+
+#contact a{
+    color: white;
+}
+
+.header a{
+    color: white;
+    text-decoration: none;
+}
+
+footer{
+    background-color: black;
+}
+
+.links{
+    margin: 0px 120px;
+    color: white;
+}
+
+.links a{
+    color: #F37748;
+    text-decoration: none;
+}
+
+.container{
+    padding: 25px 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.links ul li{
+    padding: 3px 0px;
+    list-style-type: none;
+    font-weight: 600;
+}
+
+.links h3{
+    font-weight: 1000;
+}
+
+
+.redes{
+    padding: 8px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#copyright{
+    margin: 8px 0px 0px 0px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#multimedia{
+    margin-top: 70px;
+    height: 600px;
+}
+
+.container2{
+    margin: 0px 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.video{
+    margin: 23px 0px;
+    border: solid;
+    border-radius: 12px;
+}
+
+.quienes-somos{
+    margin-left: 150px;
+}
+
+.quienes-somos h2{
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.quienes-somos h5{
+    text-align: center;
+    font-size: 15px;
+    padding: 12px 0px;
+}
+
+.quienes-somos a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    background-color: #F37748;
+    border-radius: 14px;
+}
+
+#heroProductos{
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 25px;
+    height: 544px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#heroProductos h2{
+    font-size: 50px;
+}
+
+#heroProductos p{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+
+.flecha{
+    padding-top: 50px;
+}
+
+.card-productos{
+    margin: 5px 17px;
+}
+
+.card-productos h4{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.card-productos a{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    padding: 10px 0px;
+    background-color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #F37748;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 20px
+}
+
+.contenedor-productos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 40px 0px;
+}
+
+#heroTestimonios{
+    height: 544px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#heroTestimonios h2{
+    font-size: 50px;
+}
+
+#heroTestimonios p{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+
+.container-testimonios{
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.row-testimonios{
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 33%;
+    text-align: center;
+    border-radius: 15px;
+    text-justify: auto;
+}
+
+.row-testimonios p{
+    font-size: 18px
+}
+
+#Nos{
+    font-size: 20px;
+    padding: 25px;
+    margin: 30px 300px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+}
+
+#logo-comment{
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    background-color: rgba(0,0,0,0.4);
+    width: 450px;
+    margin: auto;
+    padding: 10px 20px;
+    border-radius: 15px;
+    margin-bottom: 45px;
+}
+
+form h2{
+    color: white;
+    text-align: center;
+    margin-bottom: 8px;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+input{
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+textarea{
+    width: 100%;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.navbar-brand{
+    font-size: 35px;
+    color: white;
+}
+
+.navbar{
+    background: rgba(0,0,0,0.5)
+}
+
+#navbarNavDropdown{
+    justify-content: center
+}
+
+.nav-link{
+    color: white;
+    font-size: 20px;
+}
+
+.nav-item{
+    margin: 0px 8;
+}
+
+ .caja{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .caja h2{
+    margin-top: 80px;
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-weight: 600;
+ }
+
+ .caja p{
+    font-size: 25px;
+ }
+
+ #cards{
+    margin-top: 20px;
+ }
+
+.btn-primary{
+    background-color: #F37748;
+    border-color: #F37748;
+    display: flex;
+    justify-content: center;
+ }
+
+ #footer{
+    margin-top: 120px;
+ }
+
+ .formulario{
+    height: 475px;
+ }
+
+ .formulario form{
+    margin-top: 60px;
+ }
+
+/* Vista Mobile */
+/* @media (max-width: 576px){
+    .col-12{
+        display:flex;
+        justify-content: center;
+    }
+    .caja p{
+        text-align: center;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .container ul li{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .container ul{
+        padding: 0;
+    }
+    form{
+        width: 350px;
+    }
+    .formulario{
+        height: 400px;
+     }
+} */ */

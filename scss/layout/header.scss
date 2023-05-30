@@ -1,0 +1,22 @@
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    .navbar{
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    #navbarNavDropdown{
+        justify-content: end;
+        
+    }
+    .nav-link{
+        color: white;
+    }
+    .navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+        color: #F37748; 
+    }
+    .navbar-brand{
+        color: white;
+    }
+}

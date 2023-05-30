@@ -1,0 +1,70 @@
+footer{
+    margin-top: 100px;
+    background-color: black;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    .footer-box{
+        display: flex;
+        justify-content: space-around;
+        .Empresa{
+            h3{
+                color: white;
+                font-size: 35px;
+                font-weight: 800;
+                margin-bottom: 20px;
+                border: solid;
+                border-radius: 12px;
+                border-color: #F37748;
+                display: flex;
+                justify-content: center;
+            }
+            p{
+                color: white;
+                display: flex;
+                justify-content: center;
+                font-size: 20;
+            }
+        }
+        .Ayuda{
+            h3{
+                color: white;
+                font-size: 35px;
+                font-weight: 800;
+                margin-bottom: 20px;
+                border: solid;
+                border-radius: 12px;
+                border-color: #F37748;
+                display: flex;
+                justify-content: center;
+            }
+            p{
+                color: white;
+                display: flex;
+                justify-content: center;
+                font-size: 20;
+            }
+        }
+        .Redes{
+            h3{
+                color: white;
+                font-size: 35px;
+                font-weight: 800;
+                margin-bottom: 20px;
+                border: solid;
+                border-radius: 12px;
+                border-color: #F37748;
+                display: flex;
+                justify-content: center;
+                ul{
+                    list-style-type: none;
+                .redes{
+                    li{
+                        list-style-type: none;
+                    }
+                }
+                }
+            }
+        }
+    }
+}
