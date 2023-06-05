@@ -1,3 +1,6 @@
+//Basics
+@import './basics/colors';
+@import './basics/mixin.scss';
 
 
 //Layouts
@@ -9,3 +12,6 @@
 //Pages
 @import './pages/index.scss';
 @import './pages/productos.scss';
+@import './pages/testimonios.scss';
+@import './pages/sobre-nosotros.scss';
+@import './pages/contacto.scss';

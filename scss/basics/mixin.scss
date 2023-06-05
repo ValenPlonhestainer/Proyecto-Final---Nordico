@@ -1,0 +1,14 @@
+@mixin button($nombre, $fondo){
+    .button-#{$nombre}{
+        padding: 12px 24px;
+        border-radius: 12px;
+        font-weight: 600;
+        font-size: 18px;
+        color: white;
+        background-color: $fondo;
+
+    }
+}
+
+@include button("primario", $color-primario);
+@include button("secundario", $color-terciario);

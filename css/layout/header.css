@@ -1,23 +1,17 @@
 header {
-  position: fixed;
-  top: 0;
-  left: 0;
   width: 100%;
-}
-header .navbar {
-  background-color: rgba(0, 0, 0, 0.5);
 }
 header #navbarNavDropdown {
   justify-content: end;
 }
 header .nav-link {
-  color: white;
+  color: black;
 }
 header .navbar-nav .nav-link.active, header .navbar-nav .nav-link.show {
-  color: #F37748;
+  color: #BCAA99;
 }
 header .navbar-brand {
-  color: white;
+  color: black;
 }
 
 /*# sourceMappingURL=header.css.map */

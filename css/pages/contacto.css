@@ -1,0 +1,59 @@
+main #heroContacto {
+  margin-bottom: 80px;
+  position: relative;
+  bottom: 0px;
+  background-image: url("https://i.pinimg.com/originals/a6/e7/46/a6e7468371ba3b3c3dc212b3ef54cd9c.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 650px;
+}
+main #heroContacto .heroContacto {
+  padding-top: 20px;
+  position: absolute;
+  left: 150;
+  bottom: 0;
+  width: 500px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main #heroContacto .heroContacto h2 {
+  padding: 5px 7px;
+  border-radius: 12px;
+  font-size: 35px;
+  font-weight: 600;
+}
+main #heroContacto .heroContacto p {
+  font-size: 22px;
+}
+main #contacto .contacto form {
+  background-color: #BCAA99;
+  width: 450px;
+  margin: auto;
+  padding: 10px 20px;
+  border-radius: 15px;
+  margin-bottom: 45px;
+}
+main #contacto .contacto form h2 {
+  color: white;
+  text-align: center;
+  margin-bottom: 8px;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+main #contacto .contacto input {
+  width: 100%;
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: 600;
+}
+main #contacto .contacto textarea {
+  width: 100%;
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/*# sourceMappingURL=contacto.css.map */

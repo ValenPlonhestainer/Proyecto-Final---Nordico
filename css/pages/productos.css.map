@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"productos.css"}
+{"version":3,"sourceRoot":"","sources":["../../scss/pages/productos.scss"],"names":[],"mappings":"AACI;EACI;EACA;EACA;EACA;EACA;EACA;EACA;;AACA;EACI;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;AACA;EACI;EACA;EACA;EACA;;AAEJ;EACI;;AAIZ;EACI;EACA;EACA;;AACA;EAKI;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;AAXA;EACI;EACA;;AAUJ;EACI;;AAKR;EACI;EACA;EACA;;AACA;EACI;EACA;;AAGR;EACI;EACA;EACA;EACA;EACA;EACA;;AACA;EACI;EACA;;AAEJ;EACI;EACA;EACA;EACA;EACA;EACA;;AAIJ;EACI;EACA","file":"productos.css"}
