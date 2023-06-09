@@ -81,6 +81,11 @@ footer .footer-box .Redes h3 ul li {
   list-style-type: none;
 }
 
+@media (max-width: 576px) {
+  footer a {
+    text-align: center;
+  }
+}
 header {
   width: 100%;
 }
@@ -119,7 +124,7 @@ main #hero1 .hero {
   justify-content: center;
   align-items: center;
 }
-main #hero1 .hero h2 {
+main #hero1 .hero h1 {
   text-transform: uppercase;
   font-size: 70px;
   font-weight: 600;
@@ -133,7 +138,7 @@ main #hero1 .hero p {
 main #hero1 .hero a {
   color: white;
   background-color: #F37748;
-  border-radius: 20px;
+  border-radius: 12px;
   font-size: 22px;
   padding: 14px 26px;
   text-decoration: none;
@@ -215,6 +220,40 @@ main #medidas p {
   margin: 0px 18px;
 }
 
+@media (max-width: 576px) {
+  main #hero1 {
+    height: 500px;
+  }
+  main #hero1 .hero h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+  main #hero1 .hero p {
+    font-size: 25px;
+  }
+  main #hero1 .hero a {
+    font-size: 15px;
+  }
+  main #Division .caja h2 {
+    font-size: 40px;
+    margin: 0;
+  }
+  main #videoSeccion #video {
+    height: 370px;
+  }
+  main #videoSeccion #quienesSomos h2 {
+    font-size: 30px;
+  }
+  main #slider {
+    height: 400px;
+  }
+  main #slider .carrousel {
+    margin-top: 210px;
+  }
+  main #medidas .medidas h2 {
+    font-size: 30px;
+  }
+}
 main #heroProductos {
   margin-bottom: 80px;
   position: relative;
@@ -236,7 +275,7 @@ main #heroProductos .heroProductos {
   justify-content: center;
   align-items: center;
 }
-main #heroProductos .heroProductos h2 {
+main #heroProductos .heroProductos h1 {
   padding: 5px 7px;
   border-radius: 12px;
   font-size: 35px;
@@ -274,7 +313,7 @@ main #ideas .ideas {
 }
 main #ideas .ideas h2 {
   font-weight: 600;
-  font-size: 45px;
+  font-size: 30px;
 }
 main #ideas .contenedor-imagen {
   position: relative;
@@ -286,7 +325,6 @@ main #ideas .contenedor-imagen {
 }
 main #ideas .contenedor-imagen img {
   width: 100%;
-  height: 800px;
 }
 main #ideas .contenedor-imagen p {
   width: 300px;
@@ -297,10 +335,18 @@ main #ideas .contenedor-imagen p {
   bottom: -18;
 }
 main #ideas .galeria img {
-  width: 400px;
+  width: 350px;
   height: 280px;
+  margin: 12px 0px;
 }
 
+@media (max-width: 576px) {
+  #heroProductos .heroProductos {
+    width: 250px !important;
+    position: absolute;
+    left: 70 !important;
+  }
+}
 main #heroTestimonios {
   margin-bottom: 80px;
   position: relative;
@@ -322,7 +368,7 @@ main #heroTestimonios .heroTestimonios {
   justify-content: center;
   align-items: center;
 }
-main #heroTestimonios .heroTestimonios h2 {
+main #heroTestimonios .heroTestimonios h1 {
   margin: 0;
   border-radius: 12px;
   font-size: 38px;
@@ -384,6 +430,36 @@ main #comentario .comentario h4 {
   text-transform: uppercase;
 }
 
+@media (max-width: 576px) {
+  #heroTestimonios .heroTestimonios {
+    width: 300px !important;
+    position: absolute;
+    left: 40 !important;
+  }
+  #heroTestimonios .heroTestimonios p {
+    text-align: center;
+  }
+  #comentario {
+    width: 50px;
+  }
+  #comentario .input-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    right: 150;
+  }
+  #comentario .input-group h4 {
+    font-size: 20px;
+    font-weight: 800;
+  }
+  #comentario .input-group .input-group-text {
+    width: 120px;
+  }
+  #comentario .input-group .form-control {
+    width: 300px;
+  }
+}
 main #heroNosotros {
   margin-bottom: 80px;
   position: relative;
@@ -405,7 +481,7 @@ main #heroNosotros .heroNosotros {
   justify-content: center;
   align-items: center;
 }
-main #heroNosotros .heroNosotros h2 {
+main #heroNosotros .heroNosotros h1 {
   padding: 5px 7px;
   border-radius: 12px;
   font-size: 35px;
@@ -512,6 +588,58 @@ main #motivos .motivos p {
   margin-top: 10px;
 }
 
+@media (max-width: 576px) {
+  #heroNosotros .heroNosotros {
+    width: 300px !important;
+    position: absolute;
+    left: 40px !important;
+  }
+  #nuestraHistoria {
+    position: relative;
+    left: 0px;
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+  }
+  #nuestraHistoria #nuestraHistoriaTexto h2 {
+    font-size: 30px !important;
+  }
+  #nuestraHistoria #nuestraHistoriaTexto button {
+    width: 140px;
+  }
+  #nuestraHistoria #tarjeta-sobre-nosotros {
+    height: 1000px !important;
+  }
+  #nuestraHistoria .nuestra-historia {
+    display: flex;
+    flex-direction: column;
+  }
+  #nuestraHistoriaImagen img {
+    height: 200px;
+    width: 250px;
+  }
+  #nuestroEquipo {
+    position: relative;
+    left: 0px !important;
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+  }
+  #nuestroEquipo #nuestroEquipoTexto h2 {
+    font-size: 30px !important;
+  }
+  #nuestroEquipo #nuestroEquipoTexto button {
+    width: 140px;
+  }
+  #nuestroEquipo .nuestro-equipo {
+    display: flex;
+    flex-direction: column;
+  }
+  #nuestroEquipoImagen img {
+    height: 200px;
+    width: 250px;
+  }
+}
 main #heroContacto {
   margin-bottom: 80px;
   position: relative;
@@ -533,7 +661,7 @@ main #heroContacto .heroContacto {
   justify-content: center;
   align-items: center;
 }
-main #heroContacto .heroContacto h2 {
+main #heroContacto .heroContacto h1 {
   padding: 5px 7px;
   border-radius: 12px;
   font-size: 35px;
@@ -570,24 +698,14 @@ main #contacto .contacto textarea {
   font-weight: 600;
 }
 
-@media (max-width: 576px){
-  main #hero1 .hero a{
-    font-size: 12px;
+@media (max-width: 576px) {
+  #heroContacto .heroContacto {
+    width: 250px !important;
+    position: absolute;
+    left: 70 !important;
   }
-
-
-  main #hero1 .hero p{
-    font-size: 18px;
-  }
-
-  main #hero1 .hero h2{
-    font-size: 30px;
-    text-align: center;
-  }
-
-  main #slider{
-    position: relative;
-    top: 270;
+  #contacto .contacto form {
+    width: 350px !important;
   }
 }
 

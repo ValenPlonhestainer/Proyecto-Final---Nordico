@@ -70,3 +70,12 @@ footer{
         }
     }
 }
+
+
+@media (max-width: 576px){
+    footer{
+        a{
+            text-align: center;
+        }
+    }
+}

@@ -18,7 +18,7 @@ main{
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            h2{
+            h1{
                 padding: 5px 7px;
                 border-radius: 12px;
                 font-size: 35px;
@@ -58,7 +58,7 @@ main{
             justify-content: center;
             h2{
                 font-weight: 600;
-                font-size: 45px;
+                font-size: 30px;
             }
         }
         .contenedor-imagen{
@@ -70,7 +70,6 @@ main{
             margin-bottom: 150px;
             img{
                 width: 100%;
-                height: 800px;
             }
             p{
                 width: 300px;
@@ -83,9 +82,21 @@ main{
         }
         .galeria{
             img{
-                width: 400px;
+                width: 350px;
                 height: 280px;
+                margin: 12px 0px;
             }
+        }
+    }
+}
+
+
+@media (max-width: 576px){
+    #heroProductos{
+        .heroProductos{
+            width: 250px !important;
+            position: absolute;
+            left: 70 !important;
         }
     }
 }

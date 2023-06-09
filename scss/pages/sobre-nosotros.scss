@@ -18,7 +18,7 @@ main{
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            h2{
+            h1{
                 padding: 5px 7px;
                 border-radius: 12px;
                 font-size: 35px;
@@ -133,4 +133,67 @@ main{
         }
     }
 
+}
+
+@media (max-width: 576px){
+    #heroNosotros{
+        .heroNosotros{
+            width: 300px !important;
+            position: absolute;
+            left: 40px !important;
+        }
+    }
+    #nuestraHistoria{
+        position: relative;
+        left: 0px;
+        width: 380px;
+        display: flex;
+        flex-direction: column;
+        #nuestraHistoriaTexto{
+            h2{
+                font-size: 30px !important;
+            }
+            button{
+                width: 140px;
+            }
+        }
+        #tarjeta-sobre-nosotros{
+            height: 1000px !important;
+        }
+        .nuestra-historia{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    #nuestraHistoriaImagen{
+        img{
+            height: 200px;
+            width: 250px;
+        }
+    }
+    #nuestroEquipo{
+        position: relative;
+        left: 0px !important;
+        width: 380px;
+        display: flex;
+        flex-direction: column;
+        #nuestroEquipoTexto{
+            h2{
+                font-size: 30px !important;
+            }
+            button{
+                width: 140px;
+            }
+        }
+        .nuestro-equipo{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    #nuestroEquipoImagen{
+        img{
+            height: 200px;
+            width: 250px;
+        }
+    }
 }
