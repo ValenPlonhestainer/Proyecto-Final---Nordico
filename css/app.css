@@ -412,26 +412,6 @@ main #cajaTestimonios .testimonio p {
   margin-top: 25px;
   text-align: center;
 }
-main #comentario {
-  border-radius: 12px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: BCAA99;
-  height: 200px;
-  width: 700px;
-}
-main #comentario .comentario {
-  width: 500px;
-}
-main #comentario .comentario span {
-  font-weight: 600;
-}
-main #comentario .comentario h4 {
-  margin-bottom: 20px;
-  font-weight: 450;
-  text-transform: uppercase;
-}
 
 @media (max-width: 576px) {
   #heroTestimonios .heroTestimonios {
@@ -441,26 +421,6 @@ main #comentario .comentario h4 {
   }
   #heroTestimonios .heroTestimonios p {
     text-align: center;
-  }
-  #comentario {
-    width: 50px;
-  }
-  #comentario .input-group {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-    right: 150;
-  }
-  #comentario .input-group h4 {
-    font-size: 20px;
-    font-weight: 800;
-  }
-  #comentario .input-group .input-group-text {
-    width: 120px;
-  }
-  #comentario .input-group .form-control {
-    width: 300px;
   }
 }
 main #heroNosotros {

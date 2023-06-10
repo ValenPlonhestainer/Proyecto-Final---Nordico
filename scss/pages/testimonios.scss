@@ -61,26 +61,6 @@ main{
             }
         }
     }
-    #comentario{
-        border-radius: 12px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: BCAA99;
-        height: 200px;
-        width: 700px;
-        .comentario{
-            width: 500px;
-            span{
-                font-weight: 600;
-            }
-            h4{
-                margin-bottom: 20px;
-                font-weight: 450;
-                text-transform: uppercase;
-            }
-        }
-    }
 }
 
 
@@ -93,26 +73,6 @@ main{
             width: 300px !important;
             position: absolute;
             left: 40 !important;
-        }
-    }
-    #comentario{
-        width: 50px;
-        .input-group{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            position: relative;
-            right: 150;
-            h4{
-                font-size: 20px;
-                font-weight: 800;
-            }
-            .input-group-text{
-                width: 120px;
-            }
-            .form-control{
-                width: 300px;
-            }
         }
     }
 }
